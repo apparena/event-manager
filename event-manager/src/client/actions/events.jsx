@@ -1,0 +1,1 @@
+//todo ajax call action -> result to reducer -> store
