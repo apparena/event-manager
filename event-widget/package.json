@@ -1,0 +1,42 @@
+{
+  "name": "event-widget",
+  "version": "1.0.0",
+  "description": "event-widget",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Darius Brückers",
+    "url": "https://github.com/dariusbepunkt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apparena/event-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apparena/event-widget/issues"
+  },
+  "homepage": "https://github.com/apparena/event-widget",
+  "dependencies": {
+    "react-bootstrap": "^0.30.8"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-component": "^1.0.0",
+    "electrode-archetype-react-component-dev": "^1.0.0",
+    "faker": "^4.1.0",
+    "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "^4.2.6",
+    "npm": "^3.5.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "start": "gulp demo",
+    "test": "gulp check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}

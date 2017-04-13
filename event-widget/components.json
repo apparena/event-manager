@@ -1,0 +1,26 @@
+{
+  "library": "event-widget",
+  "description": "event-widget",
+  "components": [
+    {
+      "description": "",
+      "displayName": "EventOverviewList",
+      "methods": [],
+      "props": {
+        "events": {
+          "type": {
+            "name": "array"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "[\r\n    {name: 'A'},\r\n    {name: 'B'},\r\n    {name: 'C'},\r\n    {name: 'D'},\r\n    {name: 'E'},\r\n]",
+            "computed": false
+          },
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/event-overview-list.jsx",
+      "hasProps": true
+    }
+  ]
+}
