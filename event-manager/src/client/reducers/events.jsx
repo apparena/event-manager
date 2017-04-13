@@ -1,11 +1,13 @@
-
-export default events = (store, action) => {
+const defaultState = [
+    {name: "test"}
+];
+export default function eventsReducer(state = defaultState, action = {}) {
     switch (action.type) {
         case "GET":
-            return {
-                checked: !store.checked
-            };
+            return [...state, ...action.data];
+        case "ADD":
+            return [...state, action.data];
         default:
-            return store;
+            return state;
     }
-};
+}
