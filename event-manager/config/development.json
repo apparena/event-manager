@@ -1,2 +1,7 @@
 {
+  "plugins": {
+    "db": {
+      "module": "./src/server/plugins/db"
+    }
+  }
 }

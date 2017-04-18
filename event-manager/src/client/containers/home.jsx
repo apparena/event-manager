@@ -2,6 +2,7 @@ import React, {PropTypes} from "react";
 import * as eventsActions from "../actions/events"
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
+import {EventWidget} from "event-widget"
 import Home from "../components/home";
 /**/
 import Notifications from "react-notify-toast";
@@ -33,6 +34,10 @@ class HomeContainer extends React.Component {
         this.props.addEvent(event)
     }
 
+    getEvents() {
+        this.props.getEvents()
+    }
+
     render() {
 
         const {events} =  this.props;
@@ -45,9 +50,13 @@ class HomeContainer extends React.Component {
                         [e.target.name]: e.target.value,
                     });
                 }}/>
-                <div onClick={this.addEvent.bind(this)}>
-                    Test
-                </div>
+                <button onClick={this.addEvent.bind(this)}>
+                    Add
+                </button>
+                <button onClick={this.getEvents.bind(this)}>
+                    Get
+                </button>
+                <EventWidget events={events}/>
             </div>
 
         );
