@@ -79,8 +79,8 @@ EventWidget.propTypes = {
 };
 
 EventWidget.defaultProps = {
-    events: {
-        1: {
+    events: [
+        {
             id: 1,
             name: Faker.lorem.words(),
             excerpt: Faker.lorem.sentences(2),
@@ -93,7 +93,7 @@ EventWidget.defaultProps = {
                 phoneNumber: Faker.phone.phoneNumber(),
             }
         },
-        2: {
+        {
             id: 2,
             name: Faker.lorem.words(),
             excerpt: Faker.lorem.sentences(2),
@@ -106,7 +106,7 @@ EventWidget.defaultProps = {
                 phoneNumber: Faker.phone.phoneNumber(),
             }
         },
-        3: {
+        {
             id: 3,
             name: Faker.lorem.words(),
             excerpt: Faker.lorem.sentences(2),
@@ -119,7 +119,7 @@ EventWidget.defaultProps = {
                 phoneNumber: Faker.phone.phoneNumber(),
             }
         },
-        4: {
+        {
             id: 4,
             name: Faker.lorem.words(),
             excerpt: Faker.lorem.sentences(2),
@@ -132,5 +132,5 @@ EventWidget.defaultProps = {
                 phoneNumber: Faker.phone.phoneNumber(),
             }
         },
-    }
+    ]
 };
