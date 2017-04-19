@@ -26,13 +26,10 @@ export function addEvent(event) {
         //const state = getState();
         return axios.post('/events', event)
             .then((response) => {
-            let data = {};
-            if (response.data && response.data.id) {
-                data[response.data.id] = response.data;
-                delete data[response.data.id].id;
+            if (response.data) {
                 dispatch({
                     type: 'ADD',
-                    data: data
+                    data: response.data
                 });
             } else {
                 throw "expected result event after insert";

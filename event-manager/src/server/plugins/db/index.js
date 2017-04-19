@@ -25,12 +25,13 @@ plugin.register = (server, options, next) => {
         handler: ((request, reply) => {
             request.app.db.query('SELECT * FROM events', ((error, results, fields) => {
                 // pull id out of value and use as key
-                let mapped = results.reduce((map, obj) => {
-                    map[obj.id] = obj;
-                    delete map[obj.id].id;
-                    return map;
-                }, {});
-                return reply(mapped);
+                // let mapped = results.reduce((map, obj) => {
+                //     map[obj.id] = obj;
+                //     delete map[obj.id].id;
+                //     return map;
+                // }, {});
+                // return reply(mapped);
+                return reply(results);
             }));
             // return reply('ok'); // TODO @VK okay to reply in callback?
         })

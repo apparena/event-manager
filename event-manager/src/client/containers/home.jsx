@@ -2,8 +2,9 @@ import React, {PropTypes} from "react";
 import * as eventsActions from "../actions/events"
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
-import {EventWidget} from "event-widget"
-import Home from "../components/home";
+import {EventWidget} from "event-widget";
+import {IntlProvider} from "react-intl";
+// import Home from "../components/home";
 /**/
 import Notifications from "react-notify-toast";
 /**/
@@ -56,7 +57,9 @@ class HomeContainer extends React.Component {
                 <button onClick={this.getEvents.bind(this)}>
                     Get
                 </button>
-                <EventWidget events={events}/>
+                <IntlProvider>
+                    <EventWidget events={events}/>
+                </IntlProvider>
             </div>
 
         );

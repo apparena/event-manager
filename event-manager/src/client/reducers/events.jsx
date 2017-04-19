@@ -1,6 +1,4 @@
-const defaultState = {
-    // 0: {name: "added on defaultState (reducer\\events)"}
-};
+const defaultState = [];
 export default function eventsReducer(state = defaultState, action = {}) {
     switch (action.type) {
         case "GET":
@@ -8,7 +6,7 @@ export default function eventsReducer(state = defaultState, action = {}) {
             return action.data;
         case "ADD":
             // add new event to local state
-            return {...state, ...action.data};
+            return [...state, action.data];
         default:
             return state;
     }
