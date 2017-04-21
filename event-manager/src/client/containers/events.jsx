@@ -24,7 +24,6 @@ class EventsContainer extends React.Component {
       this.setState({
         loading: false
       });
-
     }
   }
 

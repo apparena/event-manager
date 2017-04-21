@@ -1,11 +1,11 @@
 // import actionTypes from "./types";
-import axios from "axios";
 import actionTypes from "./types";
-// import {get} from "../helpers/requests";
+import {get, post} from "../helpers/requests";
+
 export function getEvents() {
     return (dispatch, getState) => {
         const state = getState();
-        return axios.get('/events')
+        return get('/events')
             .then((response) => {
                 dispatch({
                     type: actionTypes.getEvents,
@@ -25,7 +25,7 @@ export function getEvents() {
 export function addEvent(event) {
     return (dispatch, getState) => {
         //const state = getState();
-        return axios.post('/events', event)
+        return post('/events', event)
             .then((response) => {
             if (response.data) {
                 dispatch({
