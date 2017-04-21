@@ -4,22 +4,410 @@
   "components": [
     {
       "description": "",
-      "displayName": "EventOverviewList",
-      "methods": [],
+      "displayName": "EventWidget",
+      "methods": [
+        {
+          "name": "handleEventListItemClick",
+          "docblock": null,
+          "modifiers": [],
+          "params": [
+            {
+              "name": "id",
+              "type": null
+            }
+          ],
+          "returns": null
+        },
+        {
+          "name": "handleBackClick",
+          "docblock": null,
+          "modifiers": [],
+          "params": [],
+          "returns": null
+        },
+        {
+          "name": "handleShowRegistrationModal",
+          "docblock": null,
+          "modifiers": [],
+          "params": [],
+          "returns": null
+        },
+        {
+          "name": "handleHideRegistrationModal",
+          "docblock": null,
+          "modifiers": [],
+          "params": [],
+          "returns": null
+        }
+      ],
       "props": {
         "events": {
           "type": {
-            "name": "array"
+            "name": "arrayOf",
+            "value": {
+              "name": "shape",
+              "value": {
+                "id": {
+                  "name": "number",
+                  "required": false
+                },
+                "name": {
+                  "name": "string",
+                  "required": false
+                },
+                "date": {
+                  "name": "custom",
+                  "raw": "PropTypes.isPrototypeOf(Date)",
+                  "required": false
+                },
+                "excerpt": {
+                  "name": "string",
+                  "required": false
+                },
+                "host": {
+                  "name": "shape",
+                  "value": {
+                    "prefix": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "firstName": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "lastName": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "jobTitle": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "phoneNumber": {
+                      "name": "string",
+                      "required": false
+                    }
+                  },
+                  "required": false
+                }
+              }
+            }
           },
           "required": false,
           "defaultValue": {
-            "value": "[\r\n    {name: 'A'},\r\n    {name: 'B'},\r\n    {name: 'C'},\r\n    {name: 'D'},\r\n    {name: 'E'},\r\n]",
+            "value": "[\n    {\n        id: 1,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.future(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n    {\n        id: 2,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.future(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n    {\n        id: 3,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.future(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n    {\n        id: 4,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.past(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n]",
+            "computed": false
+          },
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/event-widget.jsx",
+      "hasProps": true
+    },
+    {
+      "description": "",
+      "displayName": "EventRegistrationModal",
+      "methods": [],
+      "props": {
+        "event": {
+          "type": {
+            "name": "shape",
+            "value": {
+              "id": {
+                "name": "number",
+                "required": false
+              },
+              "name": {
+                "name": "string",
+                "required": false
+              },
+              "date": {
+                "name": "custom",
+                "raw": "PropTypes.isPrototypeOf(Date)",
+                "required": false
+              },
+              "excerpt": {
+                "name": "string",
+                "required": false
+              },
+              "host": {
+                "name": "shape",
+                "value": {
+                  "prefix": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "firstName": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "lastName": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "jobTitle": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "phoneNumber": {
+                    "name": "string",
+                    "required": false
+                  }
+                },
+                "required": false
+              }
+            }
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "{\n    id: 1,\n    name: Faker.lorem.words(),\n    excerpt: Faker.lorem.sentences(2),\n    date: Faker.date.future(),\n    host: {\n        prefix: Faker.name.prefix(),\n        firstName: Faker.name.firstName(),\n        lastName: Faker.name.lastName(),\n        jobTitle: Faker.name.jobTitle(),\n        phoneNumber: Faker.phone.phoneNumber(),\n    }\n}",
+            "computed": false
+          },
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/event-registration-modal.jsx",
+      "hasProps": true
+    },
+    {
+      "description": "",
+      "displayName": "EventOverviewList",
+      "methods": [],
+      "props": {
+        "itemClickHandler": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "() => {\n}",
+            "computed": false
+          },
+          "description": ""
+        },
+        "events": {
+          "type": {
+            "name": "arrayOf",
+            "value": {
+              "name": "shape",
+              "value": {
+                "id": {
+                  "name": "number",
+                  "required": false
+                },
+                "name": {
+                  "name": "string",
+                  "required": false
+                },
+                "date": {
+                  "name": "custom",
+                  "raw": "PropTypes.isPrototypeOf(Date)",
+                  "required": false
+                },
+                "excerpt": {
+                  "name": "string",
+                  "required": false
+                },
+                "host": {
+                  "name": "shape",
+                  "value": {
+                    "prefix": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "firstName": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "lastName": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "jobTitle": {
+                      "name": "string",
+                      "required": false
+                    },
+                    "phoneNumber": {
+                      "name": "string",
+                      "required": false
+                    }
+                  },
+                  "required": false
+                }
+              }
+            }
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "[\n    {\n        id: 1,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.future(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n    {\n        id: 2,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.future(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n    {\n        id: 3,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.future(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n    {\n        id: 4,\n        name: Faker.lorem.words(),\n        excerpt: Faker.lorem.sentences(2),\n        date: Faker.date.past(),\n        host: {\n            prefix: Faker.name.prefix(),\n            firstName: Faker.name.firstName(),\n            lastName: Faker.name.lastName(),\n            jobTitle: Faker.name.jobTitle(),\n            phoneNumber: Faker.phone.phoneNumber(),\n        }\n    },\n]",
             "computed": false
           },
           "description": ""
         }
       },
       "fileName": "./src/components/event-overview-list.jsx",
+      "hasProps": true
+    },
+    {
+      "description": "",
+      "displayName": "EventOverviewListItem",
+      "methods": [],
+      "props": {
+        "clickHandler": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "() => {\n}",
+            "computed": false
+          },
+          "description": ""
+        },
+        "event": {
+          "type": {
+            "name": "shape",
+            "value": {
+              "id": {
+                "name": "number",
+                "required": true
+              },
+              "name": {
+                "name": "string",
+                "required": false
+              },
+              "excerpt": {
+                "name": "string",
+                "required": false
+              },
+              "date": {
+                "name": "custom",
+                "raw": "PropTypes.isPrototypeOf(Date)",
+                "required": false
+              },
+              "host": {
+                "name": "shape",
+                "value": {
+                  "prefix": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "firstName": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "lastName": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "jobTitle": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "phoneNumber": {
+                    "name": "string",
+                    "required": false
+                  }
+                },
+                "required": false
+              }
+            }
+          },
+          "required": true,
+          "defaultValue": {
+            "value": "{\n    id: 1,\n    name: Faker.lorem.words(),\n    excerpt: Faker.lorem.sentences(2),\n    date: Faker.date.future(),\n    host: {\n        prefix: Faker.name.prefix(),\n        firstName: Faker.name.firstName(),\n        lastName: Faker.name.lastName(),\n        jobTitle: Faker.name.jobTitle(),\n        phoneNumber: Faker.phone.phoneNumber(),\n    }\n}",
+            "computed": false
+          },
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/event-overview-list-item.jsx",
+      "hasProps": true
+    },
+    {
+      "description": "",
+      "displayName": "EventDetail",
+      "methods": [],
+      "props": {
+        "showRegistrationModalHandler": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": ""
+        },
+        "hideRegistrationModalHandler": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": ""
+        },
+        "backClickHandler": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "null",
+            "computed": false
+          },
+          "description": ""
+        },
+        "event": {
+          "type": {
+            "name": "shape",
+            "value": {
+              "name": {
+                "name": "string",
+                "required": false
+              },
+              "date": {
+                "name": "custom",
+                "raw": "PropTypes.isPrototypeOf(Date)",
+                "required": false
+              },
+              "excerpt": {
+                "name": "string",
+                "required": false
+              },
+              "host": {
+                "name": "shape",
+                "value": {
+                  "prefix": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "firstName": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "lastName": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "jobTitle": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "phoneNumber": {
+                    "name": "string",
+                    "required": false
+                  }
+                },
+                "required": false
+              }
+            }
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "{\n    name: Faker.lorem.words(),\n    excerpt: Faker.lorem.sentences(2),\n    date: Faker.date.past(),\n    host: {\n        prefix: Faker.name.prefix(),\n        firstName: Faker.name.firstName(),\n        lastName: Faker.name.lastName(),\n        jobTitle: Faker.name.jobTitle(),\n        phoneNumber: Faker.phone.phoneNumber(),\n    }\n}",
+            "computed": false
+          },
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/event-detail.jsx",
       "hasProps": true
     }
   ]

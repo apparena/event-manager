@@ -19,6 +19,9 @@ module.exports = {
         "pathPrefix": "dist"
       }
     },
+    "server/plugins/auth/index": {
+      "module": "./{{env.APP_SRC_DIR}}/server/plugins/auth/index"
+    },
     "server/plugins/pwa": {
       "module": "./{{env.APP_SRC_DIR}}/server/plugins/pwa"
     },

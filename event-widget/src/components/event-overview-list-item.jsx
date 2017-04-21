@@ -12,7 +12,7 @@ const EventOverviewListItem = ({event, clickHandler}) => {
                 <img width={64} height={64} src="//dummyimage.com/64x64/000000/fff&text=E" alt="Image"/>
             </Media.Left>
             <Media.Body>
-                <Media.Heading>{event.name} - <FormattedDate value={event.date}/> (<FormattedRelative value={event.date}/>)</Media.Heading>
+                <Media.Heading>{event.name} - <FormattedDate value={event.date_start}/> (<FormattedRelative value={event.date_start}/>)</Media.Heading>
                 <p>{event.excerpt}</p>
                 {event.host ? (
                         <small>{event.host.prefix} {event.host.firstName} {event.host.lastName} ({event.host.jobTitle})</small>

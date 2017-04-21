@@ -6,7 +6,7 @@ import {Panel} from "react-bootstrap";
 const EventOverviewList = ({events, itemClickHandler}) => {
     const renderEventListItems = (eventsArr, itemClickHandler) => {
         return eventsArr.map((event) => (
-            <EventOverviewListItem event={event} clickHandler={itemClickHandler}/>
+            <EventOverviewListItem key={event.id} event={event} clickHandler={itemClickHandler}/>
         ));
     };
     const title = (

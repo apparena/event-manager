@@ -2,11 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5d2d4ae-01e3-4ab8-9b8f-5e1b5ae9b91f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/actions/auth.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/actions/types.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/admin/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/admin/modal/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/auth/authenticatedContainer.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/auth/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/auth/login.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/events.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/helpers/requests.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/client/reducers/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/src/server/plugins/auth/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-manager/yarn.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/event-manager.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/.editorconfig" afterPath="$PROJECT_DIR$/event-manager/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/images/electrode.png" afterPath="$PROJECT_DIR$/event-manager/src/client/images/electrode.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/.editorconfig" afterPath="$PROJECT_DIR$/event-widget/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/.gitattributes" afterPath="$PROJECT_DIR$/event-manager/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/.gitignore" afterPath="$PROJECT_DIR$/event-manager/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/.travis.yml" afterPath="$PROJECT_DIR$/event-manager/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/.yo-rc.json" afterPath="$PROJECT_DIR$/event-manager/.yo-rc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/LICENSE" afterPath="$PROJECT_DIR$/event-manager/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/README.md" afterPath="$PROJECT_DIR$/event-manager/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/config/default.js" afterPath="$PROJECT_DIR$/event-manager/config/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/config/development.json" afterPath="$PROJECT_DIR$/event-manager/config/development.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/config/production.js" afterPath="$PROJECT_DIR$/event-manager/config/production.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/config/production.json" afterPath="$PROJECT_DIR$/event-manager/config/production.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/config/sw-config.js" afterPath="$PROJECT_DIR$/event-manager/config/sw-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/gulpfile.js" afterPath="$PROJECT_DIR$/event-manager/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/package.json" afterPath="$PROJECT_DIR$/event-manager/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/.babelrc" afterPath="$PROJECT_DIR$/event-manager/src/client/.babelrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/actions/events.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/actions/events.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/actions/index.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/actions/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/app.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/app.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/components/home.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/components/home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/containers/home.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/containers/home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/reducers/index.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/reducers/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/routes.jsx" afterPath="$PROJECT_DIR$/event-manager/src/client/routes.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/styles/base.css" afterPath="$PROJECT_DIR$/event-manager/src/client/styles/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/client/sw-registration.js" afterPath="$PROJECT_DIR$/event-manager/src/client/sw-registration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/server/.babelrc" afterPath="$PROJECT_DIR$/event-manager/src/server/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/server/index.js" afterPath="$PROJECT_DIR$/event-manager/src/server/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/server/plugins/db/index.js" afterPath="$PROJECT_DIR$/event-manager/src/server/plugins/db/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/server/plugins/pwa.js" afterPath="$PROJECT_DIR$/event-manager/src/server/plugins/pwa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/src/server/views/index-view.js" afterPath="$PROJECT_DIR$/event-manager/src/server/views/index-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/test/client/.babelrc" afterPath="$PROJECT_DIR$/event-manager/test/client/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/test/client/components/home.spec.jsx" afterPath="$PROJECT_DIR$/event-manager/test/client/components/home.spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-manager/test/server/.babelrc" afterPath="$PROJECT_DIR$/event-manager/test/server/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/.babelrc" afterPath="$PROJECT_DIR$/event-widget/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/.gitignore" afterPath="$PROJECT_DIR$/event-widget/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/.npmignore" afterPath="$PROJECT_DIR$/event-widget/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/README.md" afterPath="$PROJECT_DIR$/event-widget/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/components.json" afterPath="$PROJECT_DIR$/event-widget/components.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/components.md" afterPath="$PROJECT_DIR$/event-widget/components.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/demo/demo.css" afterPath="$PROJECT_DIR$/event-widget/demo/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/demo/demo.jsx" afterPath="$PROJECT_DIR$/event-widget/demo/demo.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/demo/examples/event-detail.example" afterPath="$PROJECT_DIR$/event-widget/demo/examples/event-detail.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/demo/examples/event-overview-list-item.example" afterPath="$PROJECT_DIR$/event-widget/demo/examples/event-overview-list-item.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/demo/examples/event-overview-list.example" afterPath="$PROJECT_DIR$/event-widget/demo/examples/event-overview-list.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/demo/examples/event-widget.example" afterPath="$PROJECT_DIR$/event-widget/demo/examples/event-widget.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/gulpfile.js" afterPath="$PROJECT_DIR$/event-widget/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/package.json" afterPath="$PROJECT_DIR$/event-widget/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/components/event-detail.jsx" afterPath="$PROJECT_DIR$/event-widget/src/components/event-detail.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/components/event-overview-list-item.jsx" afterPath="$PROJECT_DIR$/event-widget/src/components/event-overview-list-item.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/components/event-overview-list.jsx" afterPath="$PROJECT_DIR$/event-widget/src/components/event-overview-list.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/components/event-registration-modal.jsx" afterPath="$PROJECT_DIR$/event-widget/src/components/event-registration-modal.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/components/event-widget.jsx" afterPath="$PROJECT_DIR$/event-widget/src/components/event-widget.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/index.js" afterPath="$PROJECT_DIR$/event-widget/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/lang/default-messages.js" afterPath="$PROJECT_DIR$/event-widget/src/lang/default-messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/lang/en.json" afterPath="$PROJECT_DIR$/event-widget/src/lang/en.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/lang/tenants/electrodeio/default-messages.js" afterPath="$PROJECT_DIR$/event-widget/src/lang/tenants/electrodeio/default-messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/styles/event-overview-list-item.css" afterPath="$PROJECT_DIR$/event-widget/src/styles/event-overview-list-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/src/styles/event-widget.css" afterPath="$PROJECT_DIR$/event-widget/src/styles/event-widget.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/test/client/.eslintrc" afterPath="$PROJECT_DIR$/event-widget/test/client/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/test/client/components/event-widget.spec.jsx" afterPath="$PROJECT_DIR$/event-widget/test/client/components/event-widget.spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-widget/test/client/components/helpers/intl-enzyme-test-helper.js" afterPath="$PROJECT_DIR$/event-widget/test/client/components/helpers/intl-enzyme-test-helper.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,84 +100,69 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-manager/src/server/plugins/db/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="79" lean-forward="false" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="events.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/events.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/home.jsx">
+      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/routes.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-widget/src/index.js">
+      <file leaf-file-name="authenticatedContainer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/auth/authenticatedContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="215">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-widget/package.json">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/admin/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="68" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-manager/src/client/actions/events.jsx">
+      <file leaf-file-name="login.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/auth/login.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-manager/src/client/components/home.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event-widget.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-widget.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -104,12 +170,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-detail.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-detail.jsx">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/server/plugins/auth/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="58" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/actions/auth.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requests.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/helpers/requests.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/event-manager/src/client/app.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#65#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +238,39 @@
       <find>css</find>
       <find>console</find>
       <find>consol</find>
+      <find>webpack</find>
+      <find>socketPort\</find>
+      <find>socketPort</find>
+      <find>loal</find>
+      <find>lo</find>
+      <find>localh</find>
+      <find>localho</find>
+      <find>localhos</find>
+      <find>server-test</find>
+      <find>localhost</find>
+      <find>po</find>
+      <find>por</find>
+      <find>port</find>
+      <find>raw</find>
+      <find>selectedEvent</find>
+      <find>pass</find>
+      <find>pa</find>
+      <find>pas</find>
+      <find>passpor</find>
+      <find>passport</find>
+      <find>de</find>
+      <find>db</find>
+      <find>mysql</find>
+      <find>aa_auth_token</find>
     </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/event-widget</dir>
+      <dir>$PROJECT_DIR$/event-manager/src/server</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -145,27 +286,46 @@
         <option value="$PROJECT_DIR$/event-widget/demo/demo.css" />
         <option value="$PROJECT_DIR$/event-widget/src/components/event-registration-modal.jsx.js" />
         <option value="$PROJECT_DIR$/event-widget/src/index.js" />
-        <option value="$PROJECT_DIR$/event-manager/src/client/reducers/index.jsx" />
         <option value="$PROJECT_DIR$/event-manager/src/client/components/home.jsx" />
         <option value="$PROJECT_DIR$/event-widget/src/styles/event-widget.css" />
-        <option value="$PROJECT_DIR$/event-widget/src/components/event-overview-list.jsx" />
-        <option value="$PROJECT_DIR$/event-widget/src/styles/event-overview-list-item.css" />
         <option value="$PROJECT_DIR$/event-widget/src/components/event-registration-modal.jsx" />
         <option value="$PROJECT_DIR$/event-widget/demo/examples/event-registration-modal.example" />
-        <option value="$PROJECT_DIR$/event-widget/demo/demo.jsx" />
-        <option value="$PROJECT_DIR$/event-widget/src/components/event-overview-list-item.jsx" />
-        <option value="$PROJECT_DIR$/event-widget/src/components/event-detail.jsx" />
         <option value="$PROJECT_DIR$/event-manager/src/client/container/home.jsx" />
-        <option value="$PROJECT_DIR$/event-manager/src/client/routes.jsx" />
-        <option value="$PROJECT_DIR$/event-manager/src/client/app.jsx" />
         <option value="$PROJECT_DIR$/event-manager/src/server/plugins/db.js" />
         <option value="$PROJECT_DIR$/event-manager/src/server/plugins/db/db.js" />
         <option value="$PROJECT_DIR$/event-manager/config/development.json" />
-        <option value="$PROJECT_DIR$/event-manager/src/client/actions/events.jsx" />
         <option value="$PROJECT_DIR$/event-widget/src/components/event-widget.jsx" />
-        <option value="$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx" />
-        <option value="$PROJECT_DIR$/event-manager/src/server/plugins/db/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/event-manager/package.json" />
+        <option value="$PROJECT_DIR$/event-widget/demo/demo.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/config/sw-config.js" />
+        <option value="$PROJECT_DIR$/event-manager/gulpfile.js" />
+        <option value="$PROJECT_DIR$/event-widget/src/styles/event-overview-list-item.css" />
+        <option value="$PROJECT_DIR$/event-widget/src/components/event-overview-list-item.jsx" />
+        <option value="$PROJECT_DIR$/event-widget/src/components/event-overview-list.jsx" />
         <option value="$PROJECT_DIR$/event-manager/src/client/containers/home.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/admin.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/events.jsx" />
+        <option value="$PROJECT_DIR$/event-widget/src/components/event-detail.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/webpack.config.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/admin/modal/index.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/admin/index.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/server/plugins/db/index.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/server/plugins/cscadfa/index.js" />
+        <option value="$PROJECT_DIR$/event-manager/config/default.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/reducers/index.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/actions/events.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/actions/types.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/helpers/requests.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/auth/authenticatedContainer.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/auth/login.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/routes.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/node_modules/electrode-webpack-reporter/lib/webpack-reporter.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/containers/auth/login.jsx" />
+        <option value="$PROJECT_DIR$/event-manager/src/server/plugins/auth/index.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/reducers/auth.js" />
+        <option value="$PROJECT_DIR$/event-manager/src/client/app.jsx" />
       </list>
     </option>
   </component>
@@ -179,18 +339,24 @@
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/event-manager/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/event-manager/node_modules" />
     <handled-path value="$PROJECT_DIR$/event-widget/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-524" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1001" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,6 +374,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -363,7 +530,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,6 +553,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,7 +630,67 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,7 +714,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,17 +728,39 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\Darius\Development\apparena\event-manager\event-widget\node_modules\mocha" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/event-manager/node_modules/gulp" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/Apps/event-manager/event-manager/src/client/routes.jsx" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/event-manager/src/client/actions" />
+      <recent name="$PROJECT_DIR$/event-manager/config" />
+      <recent name="$PROJECT_DIR$/event-manager/src/client" />
+      <recent name="$PROJECT_DIR$/event-manager/src/client/containers/admin" />
       <recent name="C:\Users\Darius\Development\apparena\event-manager\event-manager\src\server\plugins\db" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/event-manager/src/client/containers" />
+      <recent name="$PROJECT_DIR$/event-manager/src/client/reducers" />
+      <recent name="$PROJECT_DIR$/event-manager/src/server/plugins" />
+      <recent name="$PROJECT_DIR$/event-manager/src/server/plugins/db" />
       <recent name="C:\Users\Darius\Development\apparena\event-manager\event-widget\demo\examples" />
-      <recent name="C:\Users\Darius\Development\apparena\event-manager\event-widget\src\styles" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gulp.js.default">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\Program Files\Git\usr\bin\bash.exe" />
@@ -495,6 +769,23 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -508,6 +799,10 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug host="http://localhost:3000" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -554,6 +849,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="false" name="default" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/event-manager/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Gulp.js.default" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -577,6 +886,8 @@
       <workItem from="1492443331959" duration="1037000" />
       <workItem from="1492496238807" duration="25568000" />
       <workItem from="1492582055563" duration="636000" />
+      <workItem from="1492766660207" duration="11868000" />
+      <workItem from="1492780094240" duration="9209000" />
     </task>
     <task id="LOCAL-00001" summary="Add App &amp; Component Files">
       <created>1492089932895</created>
@@ -599,38 +910,63 @@
       <option name="project" value="LOCAL" />
       <updated>1492525831258</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add idea folder to gitignore">
+      <created>1492766798088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492766798088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83568000" />
+    <option name="totallyTimeSpent" value="104645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-524" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1001" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21776815" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21776815" sideWeight="0.48294243" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21747968" sideWeight="0.48083067" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31910568" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19488817" sideWeight="0.5060606" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17199148" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/event-manager/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -659,226 +995,36 @@
     <MESSAGE value="Add App &amp; Component Files" />
     <MESSAGE value="Events as named objects" />
     <MESSAGE value="Events as objects in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Events as objects in array" />
+    <MESSAGE value="add idea folder to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add idea folder to gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/event-manager/src/client/actions/events.jsx</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/event-widget/demo/examples/event-overview-list-item.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/demo/examples/event-detail.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/es/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="93" column="15" lean-forward="false" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/lib/components/event-widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/components.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/dist/react-bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="0" column="1073" lean-forward="false" selection-start-line="0" selection-start-column="1073" selection-end-line="0" selection-end-column="1073" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/lib/Accordion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/dist/react-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5790" column="13" lean-forward="false" selection-start-line="5790" selection-start-column="10" selection-end-line="5790" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/es/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-bootstrap/es/ButtonToolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/actions/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/styles/event-overview-list.css" />
-    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-overview-list.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-registration-modal.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/demo/examples/event-registration-modal.example" />
-    <entry file="file://$PROJECT_DIR$/event-widget/demo/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="75" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event-widget/demo/demo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/node_modules/react-intl/lib/index.es.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="933" column="4" lean-forward="false" selection-start-line="933" selection-start-column="4" selection-end-line="933" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-overview-list-item.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/styles/event-overview-list-item.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/styles/event-widget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/redux/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="195" column="17" lean-forward="false" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/sw-registration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/routes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/server/views/index-view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="185">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#36#62#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event-manager/config/development.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
@@ -890,70 +1036,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/config/sw-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event-manager/config/production.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="45">
           <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+    <entry file="file://$PROJECT_DIR$/event-manager/config/sw-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="110" column="25" lean-forward="true" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/axios/index.d.ts">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="106" column="2" lean-forward="false" selection-start-line="106" selection-start-column="2" selection-end-line="106" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/config/default.js">
+    <entry file="file://$PROJECT_DIR$/event-manager/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/index.jsx">
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/electrode-webpack-reporter/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/server/plugins/pwa.js">
+    <entry file="file://$PROJECT_DIR$/event-widget/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="202" column="9" lean-forward="false" selection-start-line="202" selection-start-column="9" selection-end-line="202" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/src/styles/event-widget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/src/styles/event-overview-list-item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-overview-list-item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/components/home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-overview-list.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/electrode-confippet/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/server/views/index-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/electrode-archetype-react-app-dev/config/webpack/profile.base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/electrode-archetype-react-app-dev/config/webpack/util/generate-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/config/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-widget.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-registration-modal.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-detail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/electrode-archetype-react-app-dev/config/webpack/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/admin/modal/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/joi/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event-manager/src/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/hapi-plugin-mysql/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/event-widget/lib/index.js">
+    <entry file="file://$PROJECT_DIR$/event-manager/src/server/plugins/pwa.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -961,84 +1255,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/dist/bundle.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/bcrypt/bcrypt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="5440" column="10" lean-forward="false" selection-start-line="5440" selection-start-column="10" selection-end-line="5440" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="215">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event-manager/src/server/plugins/db/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="79" lean-forward="false" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="79" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/components/home.jsx">
+    <entry file="file://$PROJECT_DIR$/event-manager/config/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event-manager/src/client/actions/events.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/auth/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/actions/types.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-detail.jsx">
+    <entry file="file://$PROJECT_DIR$/event-manager/node_modules/electrode-webpack-reporter/lib/webpack-reporter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="58" />
+        <state relative-caret-position="307">
+          <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-widget/src/components/event-widget.jsx">
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/events.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/events.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/admin/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="68" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/auth/authenticatedContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/auth/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event-manager/src/client/containers/home.jsx">
+    <entry file="file://$PROJECT_DIR$/event-manager/src/server/plugins/auth/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/reducers/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/helpers/requests.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/actions/auth.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-manager/src/client/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#65#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

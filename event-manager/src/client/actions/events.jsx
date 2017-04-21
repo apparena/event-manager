@@ -1,5 +1,6 @@
 // import actionTypes from "./types";
 import axios from "axios";
+import actionTypes from "./types";
 // import {get} from "../helpers/requests";
 export function getEvents() {
     return (dispatch, getState) => {
@@ -7,7 +8,7 @@ export function getEvents() {
         return axios.get('/events')
             .then((response) => {
                 dispatch({
-                    type: 'GET',
+                    type: actionTypes.getEvents,
                     data: response.data
                 });
             }).catch((error) => {
@@ -28,7 +29,7 @@ export function addEvent(event) {
             .then((response) => {
             if (response.data) {
                 dispatch({
-                    type: 'ADD',
+                    type: actionTypes.addEvent,
                     data: response.data
                 });
             } else {

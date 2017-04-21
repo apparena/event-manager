@@ -21,7 +21,7 @@ const components = [
         examples: [
             {
                 type: "playground",
-                code: require("raw!./examples/event-widget.example"),
+                code: require("raw-loader!./examples/event-widget.example"),
                 noRender: true
             }
         ]
@@ -31,7 +31,7 @@ const components = [
         examples: [
             {
                 type: "playground",
-                code: require("raw!./examples/event-overview-list.example"),
+                code: require("raw-loader!./examples/event-overview-list.example"),
                 noRender: true
             }
         ]
@@ -41,7 +41,7 @@ const components = [
         examples: [
             {
                 type: "playground",
-                code: require("raw!./examples/event-overview-list-item.example"),
+                code: require("raw-loader!./examples/event-overview-list-item.example"),
                 noRender: true
             }
         ]
@@ -51,7 +51,7 @@ const components = [
         examples: [
             {
                 type: "playground",
-                code: require("raw!./examples/event-detail.example"),
+                code: require("raw-loader!./examples/event-detail.example"),
                 noRender: true
             }
         ]

@@ -9,6 +9,8 @@ import {Router, browserHistory} from "react-router";
 import {createStore, applyMiddleware, compose} from "redux";
 import {Provider} from "react-redux";
 import thunk from 'redux-thunk';
+import {checkAuthentication} from "./actions/auth";
+
 /*  */
 import {notify} from "react-notify-toast";
 /*  */
@@ -32,6 +34,10 @@ window.webappStart = () => {
     );
 
   const store = createStore(rootReducer, initialState,enhancers);
+  const token = localStorage.getItem('aa_auth_token');
+  if (token) {
+    store.dispatch(checkAuthentication(token));
+  }
   render(
     <Provider store={store}>
       <Router history={browserHistory}>{routes}</Router>
